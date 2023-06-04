@@ -267,7 +267,6 @@ header{
     color: #23272A;
 }
 footer{
-    width: 1280px;
     height: 134px;
     display: flex;
     flex-direction: column;
