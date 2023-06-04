@@ -279,10 +279,11 @@ footer{
     order: 5;
     flex-grow: 0;
 }
+
 @media screen and (max-width: 900px){
 
     body{
-        max-width: 428px;
+        max-width: 100%;
     }
 
     header{
@@ -319,21 +320,24 @@ footer{
        width: 381px;
         height: 54px;
     }
-    
+    .section-one{
+        max-width: 100%;
+    }
     .section-one figure{
-        max-width: 428px;
+        
         flex-direction: column;
     }
     .section-one img{
-        max-width: 428px;
+        max-width: 100%;
         margin-top: 10px;
     }
     .section-one h2{
+        height: auto;
         font-size: 23px;
         line-height: 33px;
     }
     .section-two{
-        max-width: 428px;
+        max-width: 100%;
     }
     .section-two figure{
         flex-direction: column;
@@ -350,3 +354,34 @@ footer{
         order: 0;
         flex-grow: 0;
     }
+    .section-two h2{
+            height: auto;
+            font-size: 23px;
+            line-height: 33px;
+    }
+    .section-three{
+        max-width: 100%; 
+    }
+    .section-three figure{
+        flex-direction: column;
+    }
+    .section-three h2{
+        height: auto;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .section-four{
+        max-width: 100%;
+    }
+    .section-four{
+        max-width: 100%; 
+    }
+    .section-four img{
+        max-width: 100%;
+    }
+    .section-four h2{
+        height: auto;
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
